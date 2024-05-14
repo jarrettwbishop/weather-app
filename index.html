@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Website Title</title>
+		<title>Weather</title>
 		<link rel="stylesheet" href="main.css" />
 		<!-- Import Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,16 +24,29 @@
 	</head>
 	<body>
 		<header>
-			<h1>logoLogo</h1>
-			<nav>
-				<ul>
-					<li>Pricing</li>
-					<li>Contact</li>
-					<li class="nav-cta">Learn More</li>
-				</ul>
-			</nav>
+			<input
+				type="text"
+				name="search-bar"
+				id="search-bar"
+				class="search-bar"
+				placeholder="Search Location"
+			/>
+			<p class="location">Orlando, Florida</p>
 		</header>
-		<main>Main</main>
+		<main>
+			<div class="primary-information">
+				<div class="group-one">
+					<p class="temperature">69°F</p>
+				</div>
+				<p class="divider"></p>
+				<div class="group-two">
+					<p class="condition">Sunny</p>
+					<p class="feels-like">Feels Like: <span>420</span>°F</p>
+					<p class="wind">Wind: <span>21 MPH</span></p>
+					<p class="humidity">Humidity: <span>80%</span></p>
+				</div>
+			</div>
+		</main>
 		<footer>
 			<p>
 				Created by
